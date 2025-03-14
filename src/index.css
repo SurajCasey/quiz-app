@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@font-face {
+  font-family: 'Rubik';
+  src: url('./assets/assets/fonts/Rubik-VariableFont_wght.ttf') format('truetype');
+  font-style: normal;
+}
+
+@theme{
+  --color-purple: #A729F5;
+  --color-navy: #3B4D66;
+  --color-dark-navy: #313E51;
+  --color-grey-navy: #626C7F;
+  --color-light-bluish: #ABC1E1;
+  --color-light-grey: #F4F6FA;
+  --color-green: #26D782;
+  --color-red: #EE5454;
+  --color-pure-white: #FFFFFF;
+}
+
+body{
+  font-family: 'Rubik';
+}
+
+.selectioncard {
+  @apply flex items-center gap-[14px] p-5 rounded-lg font-medium text-[28px]
+   text-dark-navy dark:text-pure-white bg-pure-white dark:bg-navy border-2 border-transparent
+   hover:border-purple focus-within:border-purple-500;
+}
+
+
+.selectionimg {
+  @apply p-2 rounded-lg
+}
+
+.questionscard {
+  @apply flex items-center gap-[14px] py-[18px] px-[20px] max-md:p-3  rounded-4xl font-medium text-[28px]
+   text-dark-navy dark:text-pure-white  bg-pure-white dark:bg-navy border-3 
+   hover:border-purple
+}
+
+.button {
+  @apply bg-purple hover:bg-purple-600 text-pure-white flex justify-center text-[28px] w-full rounded-2xl py-5 mt-3 cursor-pointer 
+  max-md:mt-[32px]
+}
