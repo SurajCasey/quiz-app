@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
 import Darkmode from '../Elements/Darkmode';
 import Score from './Score';
-import img1 from '../../assets/assets/images/icon-html.svg';
-import img2 from '../../assets/assets/images/icon-css.svg';
-import img3 from '../../assets/assets/images/icon-js.svg';
-import img4 from '../../assets/assets/images/icon-accessibility.svg';
-import errorimg from '../../assets/assets/images/icon-error.svg';
-import correctimg from '../../assets/assets/images/icon-correct.svg';
+import img1 from '../../assetsimages/icon-html.svg';
+import img2 from '../../assets/images/icon-css.svg';
+import img3 from '../../assets/images/icon-js.svg';
+import img4 from '../../assets/images/icon-accessibility.svg';
+import errorimg from '../../assets/images/icon-error.svg';
+import correctimg from '../../assets/images/icon-correct.svg';
 
 const Questions = ({ quiz, theme, setTheme }) => {
   if (!quiz) return null;

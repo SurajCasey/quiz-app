@@ -1,8 +1,8 @@
 import React from 'react';
-import img1 from '../../assets/assets/images/icon-html.svg';
-import img2 from '../../assets/assets/images/icon-css.svg';
-import img3 from '../../assets/assets/images/icon-js.svg';
-import img4 from '../../assets/assets/images/icon-accessibility.svg';
+import img1 from '../../assets/images/icon-html.svg';
+import img2 from '../../assets/images/icon-css.svg';
+import img3 from '../../assets/images/icon-js.svg';
+import img4 from '../../assets/images/icon-accessibility.svg';
 
 const quizImages = {
   HTML: img1,

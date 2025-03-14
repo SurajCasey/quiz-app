@@ -1,8 +1,8 @@
 import React from 'react';
-import sun1 from '../../assets/assets/images/icon-sun-light.svg';
-import sun2 from '../../assets/assets/images/icon-sun-dark.svg';
-import moon1 from '../../assets/assets/images/icon-moon-light.svg';
-import moon2 from '../../assets/assets/images/icon-moon-dark.svg';
+import sun1 from '../../assets/images/icon-sun-light.svg';
+import sun2 from '../../assetsimages/icon-sun-dark.svg';
+import moon1 from '../../assets/images/icon-moon-light.svg';
+import moon2 from '../../assets/images/icon-moon-dark.svg';
 
 const Darkmode = ({ theme, setTheme }) => {
   const handleThemeSwitch = () => {
